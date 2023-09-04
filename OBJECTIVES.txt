@@ -1,8 +1,56 @@
 # OBJECTIVES
-**Business Objectives**
-*Collect waste/trash/garbage
-*Reduce human health risks and threats
-*Keep the environment clean
-*Minimize littering
-*Providing recyclable materials
-*Resource recovery 
+
+### Business Objectives
+Collect waste/trash/garbage
+Reduce human health risks and threats
+Keep the environment clean
+Minimize littering
+Providing recyclable materials
+Resource recovery 
+
+### Business Background
+A robot is described as a programmable device composed of electronic, electrical,
+and/or mechanical components that can perform tasks that are typically carried out by
+humans. The focus here is on its ability to work in confined spaces, carry out repetitive
+tasks without getting bored, and maintain unwavering focus on ongoing tasks.
+
+### Business Success Criteria
+*Sensing Bin Levels: The robot's capability to sense the fill level of garbage
+bins is crucial for optimizing collection routes and schedules, ensuring timely
+disposal, and preventing overflow.
+
+*Waste Management Planning: Efficient waste management involves strategic
+planning for garbage collection routes, scheduling, and resource allocation. The
+robot's ability to contribute to waste management planning can enhance the
+overall process.
+
+*Garbage Treatment: Beyond collection, the robot's involvement in garbage
+treatment could encompass sorting, separating recyclables, and possibly even
+preliminary processing of waste materials.
+
+*High-Speed Stability: The robot should be able to maintain stability and
+perform its tasks at high speeds without compromising safety or efficiency.
+
+### Constraints and Risks
+*Minimal synchronization
+
+*Collect Regardless of Activity: The robot should collect garbage irrespective
+of the ongoing activities around it.It should be able to navigate its environment and perform its tasks safely.
+
+*Human Detriment: The potential risk to humans in terms of safety and job
+displacement should be carefully considered. Steps should be taken to minimize
+risks and ensure that the introduction of robots benefits society as a whole
+
+### Requirements
+*Motor driver circuit for controlling the movement of the robot
+*Power supply A sufficient and reliable power supply is essential to provide the
+energy needed for the robot's motors, sensors, and other components
+*Motion-controlling unit
+*Automatic motion of the robot is obtained by using sensors in the navigation
+system.
+*Garbage collection mechanism
+*Data processing and decision-making
+*Safety measures
+*Automatic Motion using sensors enables the robot to navigate autonomously
+*Metallic structure 
+
