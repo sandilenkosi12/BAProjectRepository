@@ -134,11 +134,11 @@ its body.
 
 AUTOMATIC COLLECTION OF GARBAGE
 
-# Importing gc module
+Importing gc module
 import gc
-# Returns the number of objects it has collected and deallocated
+ Returns the number of objects it has collected and deallocated
 collected = gc.collect()
-# Prints Garbage collector as 0 object
+ Prints Garbage collector as 0 object
 print("Garbage collector: collected", "%d objects." % collected)
 
 MARK AND SWEEP ALGORITHM
@@ -168,7 +168,7 @@ while (currNode != nullptr) {
 
 DATA PREPROCESSING
 
-#include <profiling.h>
+include <profiling.h>
 int pat_reomove(struct ptree *n,struct ptree *head) {
 ...
 if (( *(t -> p_m)).pm_data !=0) {
