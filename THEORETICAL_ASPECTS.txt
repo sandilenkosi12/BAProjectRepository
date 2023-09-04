@@ -1,0 +1,41 @@
+# THEORETICAL_ASPECTS
+
+### Machine Learning Approach
+*Supervised Learning Approach will be employed we will provide the
+machine learning algorithm with a labeled dataset. Each example in the dataset
+will consist of input features and the corresponding correct output (label). The
+algorithm learns to map inputs to outputs based on the provided examples. The
+process involves making predictions and adjusting its internal parameters to
+minimize prediction errors.
+
+*Training Data and Example Instructions: The operator prepares a dataset
+with known inputs and corresponding outputs. These are used to train the
+machine learning model. The algorithm's objective is to learn the underlying
+patterns in the data to make accurate predictions on new, unseen examples.
+
+*Model Training and Prediction: The SVM algorithm will be used to build a
+model. It is used for both classification and regression tasks. In classification, it
+aims to find a hyperplane that best separates the data points of different classes
+while maximizing the margin between them.
+
+*Correction and Iteration: During the training process, the algorithm will make
+predictions on the training data. The operator will compare the algorithm's
+predictions with the actual labels and provide corrections when discrepancies
+arise. This iterative process continues until the algorithm's performance reaches
+a satisfactory level.
+
+### Classification 
+The goal is to assign input data points to predefined categories or classes. Support
+Vector Machine is a classification algorithm that works well for both linear and nonlinear data separation.
+
+ *Support Vector Machine Algorithm: Support Vector Machines are powerful
+  algorithms for classification and regression tasks. They aim to find a hyperplane
+  that best separates the data points of different classes while maximizing the
+  margin between them. SVM can handle linear and non-linear separation, and
+  there are variations like kernel SVM that allow it to operate in higher-dimensional
+  spaces without explicitly mapping to those spaces.
+
+ *Model Evaluation: Once the model is trained, it's important to evaluate its
+  performance on unseen data (testing data) to ensure that it generalizes well.
+  Common evaluation metrics for classification tasks include accuracy and
+  precision.
