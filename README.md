@@ -91,11 +91,139 @@ Metallic structure
 3. THEORETICAL ASPECT
    
 MACHINE LEARNING APPROACH
-DATA 
+
+Supervised Learning Approach will be employed we will provide the 
+machine learning algorithm with a labeled dataset. Each example in the dataset
+will consist of input features and the corresponding correct output (label). The 
+algorithm learns to map inputs to outputs based on the provided examples. The 
+process involves making predictions and adjusting its internal parameters to 
+minimize prediction errors.
+Training Data and Example Instructions: The operator prepares a dataset 
+with known inputs and corresponding outputs. These are used to train the 
+machine learning model. The algorithm's objective is to learn the underlying 
+patterns in the data to make accurate predictions on new, unseen examples.
+Model Training and Prediction: The SVM algorithm will be used to build a 
+model. It is used for both classification and regression tasks. In classification, it 
+aims to find a hyperplane that best separates the data points of different classes 
+while maximizing the margin between them.
+Correction and Iteration: During the training process, the algorithm will make 
+predictions on the training data. The operator will compare the algorithm's 
+predictions with the actual labels and provide corrections when discrepancies 
+arise. This iterative process continues until the algorithm's performance reaches 
+a satisfactory level.
+
+Classification:
+
+The goal is to assign input data points to predefined categories or classes. Support 
+Vector Machine is a classification algorithm that works well for both linear and nonlinear data separation.
+Support Vector Machine Algorithm: Support Vector Machines are powerful 
+algorithms for classification and regression tasks. They aim to find a hyperplane
+that best separates the data points of different classes while maximizing the 
+margin between them. SVM can handle linear and non-linear separation, and 
+there are variations like kernel SVM that allow it to operate in higher-dimensional 
+spaces without explicitly mapping to those spaces.
+Model Evaluation: Once the model is trained, it's important to evaluate its 
+performance on unseen data (testing data) to ensure that it generalizes well. 
+Common evaluation metrics for classification tasks include accuracy and
+precision.
+
+DATA
+
+Articulating the problem (Memory management)
+
+Memory leaks 
+Incorrect total heap memory size 
+High allocation rates and performance issues 
+Premature object promotion
+
+Define Data required
+
+Maintain High-quality test code
+Use benchmarks 
+Reducing available memory 
+
+Data preprocessing: 
+
+Cleaning: 
+
+Monitoring errors: Regularly monitoring for errors and reporting them is crucial 
+for identifying problematic areas and correcting errors for future applications 
+Data compliance: Ensuring that data adheres to specific specifications 
+determines its quality and usability for analysis
+Data Accuracy: Ensuring that the data is accurate and closely aligned with the actual values is essential
+
+Data reduction 
+
+Compression: Data reduction involves compressing data to reduce the 
+amount of storage required. This can be achieved using lossy or lossless 
+compression techniques, depending on the data and its requirements.
+
+
 MODEL 
+
+Computer Vision and Object Recognition: Computer vision algorithms are 
+employed to enable machines to understand and interpret visual information from 
+images and videos.
+Requirements to accomplish this algorithm 
+Creating Visual Datasets: training computer vision model, requiring a dataset 
+of images that the model can learn from. These images need to be labeled, 
+indicating what objects or features are present in each image, images of 
+garbage, waste materials, and related objects would be labeled with information 
+such as the product brand, item shape, and material type.
+Manual Labeling of Images: To create garbage datasets involves manually
+annotating images. This means reviewing each image and applying the 
+appropriate labels. For example, an image of a plastic bottle might be labeled 
+with the brand name, the shape of the bottle, and the material (plastic).
+Vision AI Platforms from Plain Sight provides
+.Rapid labeling for assigning labels to objects in images
+.End-to-end model building for building, training, and deploying computer 
+.vision models
+.No-code approach
+.And automatically training datasets containing waste-related images or 
+ videos. 
+
 TIME SERIES ANALYSIS OF DATA
+
+Time series analysis involves studying data points collected over time intervals to 
+understand patterns, trends, and relationships.
+Time Series Data: A time series is a sequence of data points indexed in time order. 
+Each data point corresponds to a specific time instance.
+Techniques: Time series analysis techniques include identifying trends, seasonality, 
+cyclic patterns, and irregular fluctuations in the data.
 SOLUTION TECHNIQUES
+
+Reference Counting: Each object has a reference count associated with it. 
+When a new reference to the object is created, the reference count is increased, 
+and when a reference is removed or goes out of scope, the reference count is 
+decreased. When the reference count drops to zero, it means the object is no 
+longer reachable and can be safely deallocated.
+Mark and Sweep (Garbage Collection): Mark and Sweep is a garbage 
+collection technique used to automatically manage memory by identifying and 
+reclaiming memory that is no longer in use. The process involves two main 
+phases: marking and sweeping.
+• Marking: The process starts with the root set, which includes all memory 
+locations that are directly accessible by the program (e.g., machine registers, 
+10
+stack, and static data regions). The garbage collector recursively traverses all 
+reachable objects and marks them as in use.
+• Sweeping: Once all reachable objects are marked, the garbage collector 
+sweeps through the memory and deallocates memory blocks that are not 
+marked. These unmarked blocks are considered garbage as they are not 
+reachable from the root set. This phase releases memory that is no longer 
+needed.
 NATURAL LANGUAGE PROCESSING
+
+Natural Language Processing is a field of AI that focuses on enabling machines to 
+understand, interpret, and generate human language. Natural Language Processing
+can have various applications, such as communication between the robotic system and 
+humans or processing textual data related to waste management.
+Interacting with Computers: Natural Language Processing allows humans to 
+communicate with computers using natural language, which can include spoken or 
+written language.
+Instructions and Decisions: Natural Language Processing can be used when you 
+want to give instructions to the robot through text or voice commands. It can also help 
+in making decisions based on textual information, like reports or instructions.
+
 
 5. DEEP LEARNING
 
