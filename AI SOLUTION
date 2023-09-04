@@ -1,0 +1,123 @@
+AUTOMATIC COLLECTION OF GARBAGE
+
+# Importing gc module
+import gc
+# Returns the number of objects it has collected and deallocated
+collected = gc.collect()
+# Prints Garbage collector as 0 object
+print("Garbage collector: collected", "%d objects." % collected)
+
+DATA
+
+CLASS      AMOUNT     CLASS      AMOUNT     CLASS       AMOUNT
+cans        550       Expired    435        chopsticks  958
+                       drugs
+
+Plastic    320        Big bones  234        Leather     356
+ bag                                         shoes
+
+Toothpick  356        Lunch box  435        eggshell     895
+
+Plush toys 877        Cigarette  162        Plastic toys 654
+                       butts
+
+pot        645        leftovers  193        Courier      776
+                                            papers
+
+Chopping   835        Metal cans 283       Old clothes   654
+board
+
+Old        143        Plastic    222       ointment      256
+clothes                bowls
+
+Dry cell   981        bags       374       Cardboard     533
+                                             box
+
+Tea        355        pulp       276       Wine bottle   435
+
+Plug wire  273        peel       747       Drink bottle  144
+
+fishbone   524        Basin      200       Cosmetic      344
+                      dishes                bottle
+
+Power Bank 434        Shampoo    255       Glass         532
+                      bottles
+
+pillow     355        Cooking   555        Flavoring     643
+                      oil barrel              bottle
+
+
+MARK AND SWEEP ALGORITHM
+
+Node* removeNode(int value, Node* head) {
+ Node* newHead = head;
+ 
+ if (head->value == value) {
+ newHead = head->next;
+ delete head;
+ } else {
+ Node* prevNode = head;
+ Node* currNode = head->next;
+
+while (currNode != nullptr) {
+ if (currNode->value == value) {
+ prevNode->next = currNode->next;
+ delete currNode;
+ break; // Node found and deleted, exit the loop
+ }
+ prevNode = currNode;
+ currNode = currNode->next;
+ }
+ }
+ return newHead;
+}
+
+DATA PREPOCESSING
+
+#include <profilling.h>
+int pat_remove(struct ptree *n,struct ptree *head) {
+if ((*(t - > p_m_)).pm_data !=0) {
+    profile_heap_free(( *(t - > p_m)).pm_data);
+} else{
+}
+profile_heap_free((t- >p_m));
+if (t !=p) {
+t -> p_key = (p -> p_key);
+t -> p_m =(p-> p_m);
+t -> p_mlen = (p -> p_mlen);
+} else{
+}
+   profile_heap_free(p);
+   return 1;
+}
+/*Allocate space for a new set of marks.*/
+buf = ((struct ptree_mask *)
+(profile_heap_melloc((sizeof(struct ptree_mask) *
+      ((t -> p_mlen) - 1 )))));
+
+/* free old masks and point to new ones. */
+t -> pmlen--;
+profile_heap_free((t -> p_m));
+t -> p_m = buf;
+return 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
