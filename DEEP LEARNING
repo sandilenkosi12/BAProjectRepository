@@ -1,0 +1,48 @@
+DEEP LEARNING
+
+Effective Problem Solving: Deep learning offers effective problem-solving 
+capabilities by learning representations from data. It can automatically learn 
+features from the data, reducing the need for manual feature engineering.
+
+Handling Large Data: Deep learning excels at handling large and complex 
+datasets. This is particularly beneficial for tasks like image recognition, where 
+extensive data is available.
+
+It uses a deep neural network (namely, GarbageNet) to detect different types of
+recyclable garbage.
+
+Convolutional Neural Networks (CNNs): CNNs are a type of deep learning 
+architecture particularly well-suited for image analysis tasks. They use 
+convolutional layers to automatically learn features from images.
+
+    DETECTION AND NAVIGATION
+
+Trash Detection: The system uses CNNs to detect trash on the ground and 
+nearby. This is a crucial step in identifying where garbage needs to be collected.
+
+Location Determination: After detecting trash, the system uses image analysis 
+to determine the location of the trash. This information is vital for the robot's 
+navigation.
+
+Navigation Algorithm: A separate algorithm calculates the distance between 
+the robot and the trash and generates navigational directions for the robot. This 
+ensures that the robot can reach the detected trash efficiently.
+
+Microprocessor Integration: The microprocessor receives the position of the 
+garbage and the navigation instructions. It's responsible for controlling the 
+robot's movements based on this information.
+
+Robot Movement: The microcontroller directs the robot's movements based on 
+the learned location of the trash and the navigation instructions.
+
+Trash Collection: Upon reaching the detected trash, the robot uses a robotic 
+arm to collect the trash.
+
+Disposal: The robot deposits the collected trash into a drawer integrated into 
+its body.
+
+
+
+
+
+
