@@ -1,0 +1,21 @@
+Data
+
+  Articulating the problem (Memory management)
+    Memory leaks 
+    Incorrect total haep memory size
+    High allocation rates and perfomance issues
+    Premature object promotion
+
+  Define Data Required
+    Maintain High-quality test code
+    Use benchmarks
+    Reducing avaible memory
+  Data Preprocessing
+  Cleaning
+
+    Monitoring Errors: Regulary monitoring for errors and reporting them is crucial gor identifying problematic areas and connecting errors for future applications
+    Data compliance: Ensuring that data adheres to specific Specifications determines its quality and usability for analysis
+    Data Accuracy: Ensuring that the data is accurate and closelynalignedwith the actual values is essential.
+  Data Reduction
+    Compression data reduction involves compressing data to reduce amount of storage required this can be achieved using loosy or loseless compression techniques,
+    depending on the data and its requirements.
