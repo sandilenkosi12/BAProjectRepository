@@ -39,3 +39,77 @@ Vector Machine is a classification algorithm that works well for both linear and
   performance on unseen data (testing data) to ensure that it generalizes well.
   Common evaluation metrics for classification tasks include accuracy and
   precision.
+
+### Model
+Computer Vision and Object Recognition: Computer vision algorithms are
+employed to enable machines to understand and interpret visual information from
+images and videos.
+
+ *Requirements to accomplish this algorithm
+  *Creating Visual Datasets: training computer vision model, requiring a dataset
+   of images that the model can learn from. These images need to be labeled,
+   indicating what objects or features are present in each image, images of
+   garbage, waste materials, and related objects would be labeled with information
+   such as the product brand, item shape, and material type.
+ 
+  *Manual Labeling of Images: To create garbage datasets involves manually
+   annotating images. This means reviewing each image and applying the
+   appropriate labels. For example, an image of a plastic bottle might be labeled
+   with the brand name, the shape of the bottle, and the material (plastic).
+
+ *Vision AI Platforms from Plain Sight provides:
+  *Rapid labeling for assigning labels to objects in images
+  *End-to-end model building for building, training, and deploying computer
+   vision models
+ *No-code approach
+ *And automatically training datasets containing waste-related images or
+  videos. 
+   ![Training Model](https://github.com/BA-AI-Project/BAProjectRepository/assets/117765062/3bc8293f-05b7-479a-abd0-26e26458e66e)
+
+### Time series analysis of data
+Time series analysis involves studying data points collected over time intervals to
+understand patterns, trends, and relationships.
+ 
+  *Time Series Data: A time series is a sequence of data points indexed in time order.
+   Each data point corresponds to a specific time instance.
+   
+  *Techniques: Time series analysis techniques include identifying trends, seasonality,
+   cyclic patterns, and irregular fluctuations in the data.
+
+
+### Solution techniques
+  *Reference Counting: Each object has a reference count associated with it.
+   When a new reference to the object is created, the reference count is increased,
+   and when a reference is removed or goes out of scope, the reference count is
+   decreased. When the reference count drops to zero, it means the object is no
+   longer reachable and can be safely deallocated.
+
+  *Mark and Sweep (Garbage Collection): Mark and Sweep is a garbage
+   collection technique used to automatically manage memory by identifying and
+   reclaiming memory that is no longer in use. The process involves two main
+   phases,namely Marking and Sweeping.
+   
+   *Marking: The process starts with the root set, which includes all memory
+    locations that are directly accessible by the program (e.g., machine registers,
+    stack, and static data regions). The garbage collector recursively traverses all
+    reachable objects and marks them as in use.
+
+   *Sweeping: Once all reachable objects are marked, the garbage collector
+    sweeps through the memory and deallocates memory blocks that are not
+    marked. These unmarked blocks are considered garbage as they are not
+    reachable from the root set. This phase releases memory that is no longer
+    needed.
+
+### Natural language processing (NLP)
+Natural Language Processing is a field of AI that focuses on enabling machines to
+understand, interpret, and generate human language. Natural Language Processing
+can have various applications, such as communication between the robotic system and
+humans or processing textual data related to waste management.
+
+  *Interacting with Computers: Natural Language Processing allows humans to
+   communicate with computers using natural language, which can include spoken or
+   written language.
+
+  *Instructions and Decisions: Natural Language Processing can be used when you
+   want to give instructions to the robot through text or voice commands. It can also help
+   in making decisions based on textual information, like reports or instructions.
