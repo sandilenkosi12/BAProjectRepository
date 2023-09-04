@@ -93,6 +93,55 @@ MODEL
 TIME SERIES ANALYSIS OF DATA
 SOLUTION TECHNIQUES
 NATURAL LANGUAGE PROCESSING
+
 5. DEEP LEARNING
+
+Effective Problem Solving: Deep learning offers effective problem-solving 
+capabilities by learning representations from data. It can automatically learn 
+features from the data, reducing the need for manual feature engineering.
+Handling Large Data: Deep learning excels at handling large and complex 
+datasets. This is particularly beneficial for tasks like image recognition, where 
+extensive data is available.
+It uses a deep neural network (namely, GarbageNet) to detect different types of
+recyclable garbage. 
+Convolutional Neural Networks (CNNs): CNNs are a type of deep learning 
+architecture particularly well-suited for image analysis tasks. They use 
+convolutional layers to automatically learn features from images.
+Detection and Navigation
+Trash Detection: The system uses CNNs to detect trash on the ground and 
+nearby. This is a crucial step in identifying where garbage needs to be collected.
+Location Determination: After detecting trash, the system uses image analysis 
+to determine the location of the trash. This information is vital for the robot's 
+navigation.
+
+Navigation Algorithm: A separate algorithm calculates the distance between 
+the robot and the trash and generates navigational directions for the robot. This 
+ensures that the robot can reach the detected trash efficiently.
+Microprocessor Integration: The microprocessor receives the position of the 
+garbage and the navigation instructions. It's responsible for controlling the 
+robot's movements based on this information.
+• Robot Movement: The microcontroller directs the robot's movements based on 
+the learned location of the trash and the navigation instructions.
+• Trash Collection: Upon reaching the detected trash, the robot uses a robotic 
+arm to collect the trash.
+• Disposal: The robot deposits the collected trash into a drawer integrated into 
+its body.
+
 6. AI SOLUTION (PRACTICAL)
-7. REFERENCES
+
+
+   
+8. REFERENCES
+
+1. https://techxplore.com/news/2019-08-automatically-garbage.html
+2. Palacin J, Salse JA, Valganon I, Clua X. Building a Mobile Robot for a 
+FloorCleaning Operation in Domestic Environments. IEEETransactions on 
+Instrumentation and Measurement. 2004;53(5):1418–1424. Available from: 
+https://dx.doi.org/10.1109/tim.2004.834093.
+3. https://ieeexplore.ieee.org/document/9315545
+4. Takeshita T, Tomizawa T. A house Cleaning Robot System - path indication and 
+Position estimation using ceiling camera. In: SICE-ICASEInternational Joint 
+Conference. Busan, Korea. 2006
+5. https://www.researchgate.net/publication/342314471_Garbage_collector_robot
+
+   
