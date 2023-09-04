@@ -5,8 +5,7 @@ Our AI solution for communities
 
 AI SOLUTION:
 
-Waste management is a big issue globally and it needs serious attention. There is no 
-proper management of waste and garbage in rural and urban areas in Vereeniging.
+Waste management is a big issue globally and it needs serious attention. There is no proper management of waste and garbage in rural and urban areas in Vereeniging.
 Our team has developed an AI solution to build a robot called TRASHBOT that 
 employs an AI algorithm to detect garbage before collecting it as a result of 
 conducting this research and examining the issues with waste management. The 
@@ -32,8 +31,31 @@ enhancing the community's overall living standards
 
 2. OBJECTIVES
 
-Business objectives
-Business success criteria
-Business background
-Constraints and risks
-Requirements
+BUSINESS OBJECTIVES
+
+Collect waste/trash/garbage
+Reduce human health risks and threats
+Keep the environment clean
+Minimize littering
+Providing recyclable materials 
+Resource recovery
+
+BUSINESS SUCCESS CRITERIA
+
+BUSINESS BACKGROUND
+
+CONSTRAINTS AND RISKS
+
+REQUIREMENTS
+
+3. THEORETICAL ASPECT
+   
+MACHINE LEARNING APPROACH
+DATA 
+MODEL 
+TIME SERIES ANALYSIS OF DATA
+SOLUTION TECHNIQUES
+NATURAL LANGUAGE PROCESSING
+5. DEEP LEARNING
+6. AI SOLUTION (PRACTICAL)
+7. REFERENCES
