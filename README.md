@@ -1,6 +1,8 @@
 # BAProjectRepository
 Our AI solution for communities
 
+1. INTRODUCTION
+
 AI SOLUTION:
 
 Waste management is a big issue globally and it needs serious attention. There is no 
@@ -27,3 +29,11 @@ hospitals, malls, etc. It will also monitor fill levels detect if it is overflow
 dispose of the waste in a designated location. The TRASHBOT will benefit the 
 community by improving public health, reducing pollution-related costs, and 
 enhancing the community's overall living standards
+
+2. OBJECTIVES
+
+Business objectives
+Business success criteria
+Business background
+Constraints and risks
+Requirements
