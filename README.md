@@ -129,7 +129,70 @@ its body.
 
 6. AI SOLUTION (PRACTICAL)
 
+AUTOMATIC COLLECTION OF GARBAGE
 
+# Importing gc module
+import gc
+# Returns the number of objects it has collected and deallocated
+collected = gc.collect()
+# Prints Garbage collector as 0 object
+print("Garbage collector: collected", "%d objects." % collected)
+
+MARK AND SWEEP ALGORITHM
+
+Node* removeNode(int value, Node* head) {
+ Node* newHead = head;
+ 
+ if (head->value == value) {
+ newHead = head->next;
+ delete head;
+ } else {
+ Node* prevNode = head;
+ Node* currNode = head->next;
+
+while (currNode != nullptr) {
+ if (currNode->value == value) {
+ prevNode->next = currNode->next;
+ delete currNode;
+ break; // Node found and deleted, exit the loop
+ }
+ prevNode = currNode;
+ currNode = currNode->next;
+ }
+ }
+ return newHead;
+} 
+
+DATA PREPROCESSING
+
+#include <profiling.h>
+int pat_reomove(struct ptree *n,struct ptree *head) {
+...
+if (( *(t -> p_m)).pm_data !=0) {
+profile_heap_free(( *(t -> p_m)).pm_data);
+}else{
+}
+profile_heap_free((t -> p_m));
+if (t != p) {
+t -> p_key=(p -> p_key);
+t -> p_m=(p -> p_m);
+t -> p_mlen=(p -> p_mlen);
+}else{
+}
+profile_heap_free(p);
+return 1;
+}
+-
+/*Allocate space for a new set of masks./*
+buf = ((struct ptree_mask *)
+(profile_heap_malloc((sizeof(struct ptree_mask) * ((t -> p_mlen -1)))));
+-
+/*Free old masks and point to new ones.*/
+t -> p_mlen--;
+profile_heap_free((t -> p_m));
+t -> p_m = buf;
+return 1;
+}
    
 8. REFERENCES
 
