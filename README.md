@@ -12,6 +12,9 @@ conducting this research and examining the issues with waste management. The
 TRASHBOT will help collect any trash that can cause littering in the community to 
 avoid health issues and pollution caused by littering.
 
+![image](https://github.com/BA-AI-Project/BAProjectRepository/assets/134421227/a07b327a-36e6-41be-a5e5-43980b2bdbd4)
+
+
 PROBLEM DEFINITION
 
 The problem at hand is the lack of effective waste management practices in a 
